@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Instalar o Menu da Operação</title>
+    <link rel="preconnect" href="https://api.fontshare.com" />
+    <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" />
+    <style>
+      :root { --vp: #123336; --neon: #c4ff57; --creme: #fafaf5; --bg: #f4f6f4; --borda: #e6eae7; --muted: #5a7376; }
+      * { box-sizing: border-box; }
+      body { margin: 0; font: 400 15px/1.55 'Satoshi', 'Inter', -apple-system, 'Segoe UI', Arial, sans-serif; color: var(--vp); background: var(--bg); }
+      header { height: 56px; display: flex; align-items: center; padding: 0 24px; background: var(--vp); }
+      header span { color: var(--creme); font-weight: 700; letter-spacing: .14em; font-size: 12px; text-transform: uppercase; }
+      main { max-width: 640px; margin: 0 auto; padding: 40px 24px 64px; }
+      .eyebrow { font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+      h1 { margin: 8px 0 8px; font-size: 26px; font-weight: 500; letter-spacing: .02em; text-transform: uppercase; line-height: 1.15; }
+      p { margin: 0 0 24px; max-width: 60ch; }
+      ol { list-style: none; margin: 0; padding: 0; background: #fff; border: 1px solid var(--borda); border-radius: 16px; }
+      li { display: flex; gap: 16px; padding: 20px; }
+      li + li { border-top: 1px solid var(--borda); }
+      .n { font-size: 28px; font-weight: 400; line-height: 1; min-width: 40px; font-variant-numeric: tabular-nums; }
+      li strong { display: block; }
+      .btn { display: inline-flex; align-items: center; height: 44px; padding: 0 20px; margin-top: 12px; border-radius: 10px;
+        background: var(--neon); color: var(--vp); font-weight: 700; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; text-decoration: none; }
+      .btn:hover { background: #d6ff8f; }
+      a:focus-visible { outline: 2px solid #3e7478; outline-offset: 2px; }
+      small { display: block; margin-top: 24px; color: var(--muted); }
+      code { font-size: 13px; }
+    </style>
+  </head>
+  <body>
+    <header><span>Enviagora · Menu da Operação</span></header>
+    <main>
+      <span class="eyebrow">Instalação · uma vez por máquina</span>
+      <h1>Instalar o Menu da Operação</h1>
+      <p>Os atalhos dos sistemas da operação, iguais em todas as máquinas. Depois de instalado, o menu se atualiza sozinho.</p>
+      <ol>
+        <li>
+          <span class="n">01</span>
+          <div>
+            <strong>Baixe a extensão</strong>
+            Use o Google Chrome desta máquina.
+            <br /><a class="btn" href="https://github.com/enviagora-dev/menu-enviagora-dist/releases/latest/download/menu-enviagora.crx">Baixar o menu</a>
+          </div>
+        </li>
+        <li>
+          <span class="n">02</span>
+          <div>
+            <strong>Adicione ao Chrome</strong>
+            Se o Chrome perguntar, clique em <em>Adicionar extensão</em>. Se ele só baixar o arquivo, abra
+            <code>chrome://extensions</code> e arraste o arquivo baixado para dentro da página.
+          </div>
+        </li>
+        <li>
+          <span class="n">03</span>
+          <div>
+            <strong>Fixe na barra</strong>
+            Clique no ícone de peça, ao lado da barra de endereço, e no alfinete do "Menu da Operação".
+          </div>
+        </li>
+      </ol>
+      <small>Deu erro? Anote a mensagem exata e envie ao responsável pelo menu. ID esperado: <code>npijpjdhlknkihfhlfdnhocfjpjphggk</code>.</small>
+    </main>
+  </body>
+</html>
